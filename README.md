@@ -147,6 +147,7 @@ cd sitenet
 
 ```bash
 cd docker
+./setup-env.sh
 docker compose -p sitenet up -d --build
 ```
 
